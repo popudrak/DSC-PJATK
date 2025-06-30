@@ -10,9 +10,9 @@ The idea is to create a model that recommends each user a new items as accuratel
 |------------|-------|
 | 1. Top 10 most popular | 0.02212 |
 | 2. LightFM first model | 0.04186 |
-| 3. LightFM tuned | Score: 0.04649 |
-| 4. LFM with features | Score: 0.04711 |
-| 5. LFM revised, tuned with more computation time | Score: 0.05113 |
+| 3. LightFM tuned | 0.04649 |
+| 4. LFM with features | 0.04711 |
+| 5. LFM revised, tuned with more computation time | 0.05113 |
 
 1. `Top 10 most popular` submission based only on top 10 most popular items to benchmark and evaluate basic information about dataset
 2. `LightFM first model ` first, most basic usage of lightfm (https://making.lyst.com/lightfm/docs/home.html), basic evaluation to get first submission ready for evaluation.
